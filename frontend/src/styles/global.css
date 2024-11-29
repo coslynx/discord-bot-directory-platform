@@ -1,0 +1,100 @@
+,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; / 1rem = 10px /
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #121212;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.MuiButton-root {
+  background-color: #007bff;
+  color: white;
+  &:hover {
+    background-color: #0069d9;
+  }
+}
+
+.MuiTypography-h3 {
+    color: #007bff;
+}
+
+
+.MuiTableContainer-root {
+    background-color: #212121;
+}
+
+.MuiTableCell-root{
+    color: white;
+}
+
+
+.MuiCard-root {
+  background-color: #212121;
+  color: white;
+}
+
+.MuiCardHeader-root {
+  background-color: #333;
+}
+
+.MuiFormLabel-root {
+    color: white;
+}
+
+.MuiInput-underline:before{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.MuiInput-underline:after{
+    border-bottom: 2px solid #007bff;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+code {
+  background-color: #333;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+
+pre {
+    background-color: #212121;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    color: white;
+}
+
+/ Responsive styles /
+@media (max-width: 768px) {
+  / Adjust styles for smaller screens /
+  html {
+    font-size: 50%; / Adjust base font size /
+  }
+}
+```
